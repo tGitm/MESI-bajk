@@ -17,9 +17,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:gravity="center"
         android:layout_marginBottom="20dp"
-        android:text="Made by: Tim Rus"/>
+        android:gravity="center"
+        android:text="Made by: Tim Rus" />
 
 
 </RelativeLayout>

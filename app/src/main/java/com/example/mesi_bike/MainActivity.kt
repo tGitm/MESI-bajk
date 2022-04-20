@@ -1,9 +1,11 @@
 package com.example.mesi_bike
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
+import android.widget.Button
 import android.widget.ListView
 
 class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
@@ -21,6 +23,13 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
         bikes = setDataArrayList()
         bikesListAdapters = BikesListAdapters(applicationContext, bikes!!)
         listView?.adapter = bikesListAdapters
+
+        //button clicked
+        val buttonClick = findViewById<Button>(R.id.add_bike_button)
+        buttonClick.setOnClickListener {
+            val intent = Intent(this, RentBikeActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun setDataArrayList(): ArrayList<BikesList> {
@@ -52,6 +61,9 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
 
         TODO("kolesa se morajo prebrati iz SQLite baze")
     }
+
+
+
 
     override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
         TODO("za vsako kolo naj bo omogočen pregled zadnje in prihodnje rezervacije, število vseh prevoženih\n" +

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">mesi-bike</string>
+    <string-array name="sectors">
+        <item>Development</item>
+        <item>Marketing and Sales</item>
+        <item>Production</item>
+        <item>Operations</item>
+    </string-array>
 </resources>

@@ -9,9 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mesibike">
-        <activity android:name=".SplashScreenActivity"
-            android:theme="@style/Theme.SplashScreen"
-            android:exported="true">
+        <activity
+            android:name=".RentBikeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SplashScreen">
+
             <!-- intent filter declares, that this is the first screen to popup -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,9 +26,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
