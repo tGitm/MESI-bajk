@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageV iew"
+        android:id="@+id/imageView"
         android:layout_width="98dp"
         android:layout_height="41dp"
         android:layout_marginStart="20dp"
