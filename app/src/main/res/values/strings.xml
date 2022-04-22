@@ -6,4 +6,14 @@
         <item>Production</item>
         <item>Operations</item>
     </string-array>
+
+    <string-array name="bikes">
+        <item>mBajk1</item>
+        <item>mBajk2</item>
+        <item>mBajk3</item>
+        <item>mBajk4</item>
+        <item>mBajk5</item>
+        <item>mBajk6</item>
+        <item>mBajk7</item>
+    </string-array>
 </resources>

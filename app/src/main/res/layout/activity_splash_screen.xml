@@ -4,14 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashScreenActivity">
+    tools:context=".activities.SplashScreenActivity">
 
     <ImageView
-        android:id="@+id/iv_mesi"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
+        android:id="@+id/iv_mesiBajk"
+        android:layout_width="264dp"
+        android:layout_height="164dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/mesi_logo" />
+        android:src="@drawable/mesi_bajk" />
+
+    <ImageView
+        android:id="@+id/mesi_logo"
+        android:layout_width="143dp"
+        android:layout_height="92dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/mesi_logo"
+        app:layout_constraintTop_toBottomOf="@+id/iv_mesiBajk" />
 
     <TextView
         android:layout_width="match_parent"

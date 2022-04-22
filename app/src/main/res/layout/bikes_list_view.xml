@@ -3,21 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="wrap_content">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:padding="10dp">
 
+        <TextView
+            android:id="@+id/bike_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:text="#1" />
 
         <TextView
             android:id="@+id/bike_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_alignParentLeft="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
             android:text="BIKE1" />
 
         <TextView
@@ -25,11 +32,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:text="ZASEDEN" />
 
-
     </RelativeLayout>
-
 
 </LinearLayout>

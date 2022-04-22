@@ -1,9 +1,10 @@
-package com.example.mesi_bike
+package com.example.mesi_bike.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.example.mesi_bike.R
 
 class SplashScreenActivity : AppCompatActivity() {
     lateinit var handler: Handler
