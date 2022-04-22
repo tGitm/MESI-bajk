@@ -28,3 +28,19 @@ kilometrov in število rezervacij glede na namen izposoje in sektor podjetja
 
 ### Wireframe aplikacije
 ![image](https://user-images.githubusercontent.com/47832737/164161115-96e683b7-f312-4c9b-ab66-5bc2a4f5bf34.png)
+
+##Completed project
+
+![image](https://user-images.githubusercontent.com/47832737/164716271-663e91b2-4e4b-4f81-b607-5fa0105222e2.png)
+![image](https://user-images.githubusercontent.com/47832737/164716332-e7ef70e2-df92-4b71-a985-a3a1f4a99c21.png)
+![image](https://user-images.githubusercontent.com/47832737/164716376-b896f278-3217-419d-94b6-7447108505f4.png)
+![image](https://user-images.githubusercontent.com/47832737/164716480-cd393329-c0ec-4c31-9715-28adfa899c95.png)
+
+Aplikacija nas ob uspešnem dodajanju rezervacije obvesti:
+
+![image](https://user-images.githubusercontent.com/47832737/164716881-414181dd-9463-4ee4-a717-89bf70cf0880.png)
+
+
+Prav tako nas obvesti v primeru, če ne izpolnemo vseh podatkov, pri vnosu rezervacije:
+
+![image](https://user-images.githubusercontent.com/47832737/164716794-e500315a-d151-4a4d-a400-23ed2bbb1080.png)
