@@ -29,7 +29,7 @@ kilometrov in število rezervacij glede na namen izposoje in sektor podjetja
 ### Wireframe aplikacije
 ![image](https://user-images.githubusercontent.com/47832737/164161115-96e683b7-f312-4c9b-ab66-5bc2a4f5bf34.png)
 
-##Completed project
+## Completed project
 
 ![image](https://user-images.githubusercontent.com/47832737/164716271-663e91b2-4e4b-4f81-b607-5fa0105222e2.png)
 ![image](https://user-images.githubusercontent.com/47832737/164716332-e7ef70e2-df92-4b71-a985-a3a1f4a99c21.png)
